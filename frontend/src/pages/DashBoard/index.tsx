@@ -10,7 +10,7 @@ const Dashboard = () => {
         <>
             <NavBar />
             <div className="container">
-            <Link className="btn btn-primary brn-lg" to="/">
+            <Link className="btn btn-primary btn-sm" to="/">
             Voltar para página inicial
             </Link>
                 <h1 className="text-primary py-3">Dashboard de vendas</h1>
