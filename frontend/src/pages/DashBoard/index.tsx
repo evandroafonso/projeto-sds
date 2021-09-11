@@ -3,12 +3,16 @@ import DataTable from "components/DataTable";
 import DonutChart from "components/DonutChart";
 import Footer from "components/Footer";
 import NavBar from "components/NavBar";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
     return (
         <>
             <NavBar />
             <div className="container">
+            <Link className="btn btn-primary brn-lg" to="/">
+            Voltar para página inicial
+            </Link>
                 <h1 className="text-primary py-3">Dashboard de vendas</h1>
 
                 <div className="row px-3">
